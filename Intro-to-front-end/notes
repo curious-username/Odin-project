@@ -1,0 +1,100 @@
+////////////
+HTML BASICS
+////////////
+
+<ol> = ordered list, will put number bullets next to each line
+<ul> = unordered list, will put bullets next to each line
+<li> = list item, required for both to list items within ol or ul
+<p> = paragraph. 
+
+Element Example:
+<p>This is text</p> The entire block including the text is an element
+
+Tag Example:
+<p> <-- The singular item is called a tag
+
+link example:
+<a href="www.kittens.example">Website of kittens</a>
+
+img example:
+<img src="images\picture.jpg alt = "description of picture> the alt tag gives a description if the picture doesn't load>
+
+////////////
+CSS BASICS
+///////////
+
+p { 
+	color: red;
+}
+
+p is a selector, what tag is the property being applied to.
+color is the property
+red is the value 
+color : red; is a declaration
+the whole thing is called a ruleset
+
+CSS Comment:
+*/ */ 
+
+CSS layout uses the box model.
+
+[padding] is the space around the content
+[border] is a solid line around the edge of the padding
+[margin] is the space outside of the border
+
+|-----------------------------------------------|
+|						|
+|	[margin]				|
+|b----------border-----------------b		|
+|o	[padding]		   o		|
+|r[padding]This is content[padding]r	[margin]|
+|d	[padding]		   d		|
+|e				   e		|
+|r----------border-----------------r		|
+|	[margin]				| 
+|				  		|		  
+|-----------------------------------------------|
+
+
+margin: 0 auto;
+first value affects top and bottom
+second value affects left and right
+auto divided horizontal space evenly
+
+background-color sets the element color
+
+padding: 0 20px 20px 20px;
+values in order: top, right bottom, left or could be seen as clockwise.
+
+border: 5px solid black;
+sets the width, style and, color of the border
+
+/////////////////
+JAVASCRIPT BASICS
+/////////////////
+
+var or let to declare a variable, let is prefered
+
+Comments:
+/* */ for multiline
+// for single line
+
+operators:
+basic math: +,-,/,*
+assignment: =
+equality: === (if a value is true or false)
+not, does not equal: !, !==
+
+
+
+
+
+
+
+
+
+
+
+
+
+
